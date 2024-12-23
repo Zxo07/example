@@ -1,0 +1,77 @@
+h1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    color:white;
+    font-size: 100px;
+    font-style:italic ;
+    margin-top: 150px;
+    background-image:url(../kursayn/images.jpg) ;
+    width: 100%; height: 200px;
+   margin-top: auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(45deg,rgb(229, 226, 153),brown,yellow,black, red,orange, white,green,purple );
+    background-size: 400% 400%;
+    animation: gradientAnimation 30s ease infinite;
+}
+
+header{
+    display: flex;
+}
+
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+button{
+    margin-left: 1000px;
+    width: 100px; height: 36px;
+    border-radius: 80px;
+    
+}
+input{
+    margin-left: -240px;
+    width: 150px; height: 30px;
+    border-radius: 5%;
+}
+
+ul{
+    color: black;
+    display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 100%;
+  height: 100%;
+  margin-left: 50px;
+}
+LI{
+    width: 40%;
+    margin-left: 180px;
+    
+}
+#book-list{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+margin-left: 200px;
+flex-flow: column wrap;
+
+}
+.book{
+    width: 60%;
+    height: 50%;
+   
+}
